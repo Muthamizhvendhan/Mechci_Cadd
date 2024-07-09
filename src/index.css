@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+.banner-bg {
+  background-image: linear-gradient(
+      rgba(209, 209, 209, 0.32) 2px,
+      transparent 2px
+    ),
+    linear-gradient(to right, rgba(209, 209, 209, 0.32) 2px, transparent 2px);
+  background-size: 32px 32px;
+  background-color: #ffffff;
+}
+
+.bt-color {
+  background-color: #0000ff;
+}
+
+.back {
+  background: url(../public/bg.jpg);
+}
+.card-bg {
+  background-color: #f6f3f3;
+}
+
+.tab-button {
+  transition: border-color 0.3s;
+}
+.tab-button:hover {
+  border-color: var(--primary);
+}
+.tab-panel {
+  display: none;
+}
+.tab-panel:not(.hidden) {
+  display: block;
+}
+
+.ltspc {
+  letter-spacing: 0.2em;
+}
+
+.number {
+  background-image: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-image {
+  background-image: url(/public/contact-banne.webp);
+  background-position: unset;
+}
+
+.bg-image1 {
+  background-image: url(/public/BGG.svg);
+  background-position: inherit ;
+}
+
+
+.card {
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.51);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
