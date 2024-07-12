@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Form = () => {
   const [enquiry, setEnquiry] = useState("");
@@ -14,7 +15,7 @@ const Form = () => {
           <h2 className="text-xl font-bold mb-4">Hotline 24/7</h2>
           <p className="text-3xl font-bold mb-8">(+91) 44444 55555</p>
           <p className="mb-4">
-            <strong>Address:</strong> 58 Lorem Ipsum, Lorem pisojsum, CA 1
+            <strong>Address:</strong> 58 Lorem Ipsum, Lorem pisojsum, TN 1
           </p>
           <p className="mb-4">
             <strong>Email:</strong> contact@text.co
@@ -25,9 +26,9 @@ const Form = () => {
           <p className="mb-4">
             <strong>Work Hour:</strong> Mon - Sat: 9:00 - 18:00
           </p>
-          <a href="#" className="text-white underline">
+          <Link to="https://maps.app.goo.gl/1ZQZBFrWazJdBhQZ8" target="_blank" className="text-white underline">
             GET DIRECTION
-          </a>
+          </Link>
         </div>
         <div className="md:w-1/2 p-4">
           <h2 className="text-2xl font-bold mb-6 text-white">

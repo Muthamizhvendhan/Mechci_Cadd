@@ -8,7 +8,7 @@ const WhyChoose = () => {
         className="relative block px-6 py-10 md:py-20 md:px-10 "
       >
         <div className="relative mx-auto max-w-5xl text-center">
-          <span className="text-black my-3 flex items-center justify-center font-medium uppercase tracking-wider">
+          <span className="text-blue-500 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
             Our Principles
           </span>
           <h2 className="block w-full bg-black bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">

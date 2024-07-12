@@ -6,7 +6,7 @@ const Testimonials = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-8">
-        <p className="text-primary font-semibold">TESTIMONIALS</p>
+        <p className="text-primary text-blue-500 font-semibold">TESTIMONIALS</p>
         <h2 className="text-4xl font-bold">The Trust From Clients</h2>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
