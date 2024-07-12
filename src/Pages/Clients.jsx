@@ -7,7 +7,7 @@ export default function Clients() {
 
   return (
     <>
-    <div className="container mx-auto p-4">
+    {/* <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold text-center mb-4">simpletabs</h1>
       <div className="flex flex-wrap justify-center border-b border-zinc-300">
         <button
@@ -79,7 +79,8 @@ export default function Clients() {
           </div>
         ))}
       </div>
-    </div>
+    </div> */}
+    
     <Cta/>
     </>
   );
