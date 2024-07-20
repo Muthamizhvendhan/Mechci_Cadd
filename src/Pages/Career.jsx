@@ -75,7 +75,7 @@ const Career = () => {
                       id="subject"
                       className="mt-1 block w-full rounded-full p-3 border-zinc-300 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50 dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-zinc-400 dark:text-white focus:outline-none"
                     >
-                      <option value>Profession</option>
+                      <option value>Domain</option>
                       <option value={"Value"}>Value</option>
                       <option value={"Value"}>Value</option>
                       <option value={"Value"}>Value</option>
