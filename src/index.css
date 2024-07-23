@@ -11,7 +11,7 @@ body {
       rgba(4, 4, 134, 0.32) 1px,
       transparent 2px
     ),
-    linear-gradient(to right, rgba(209, 209, 209, 0.32) 2px, transparent 2px);
+    linear-gradient(to right, rgba(4, 4, 134, 0.32) 1px, transparent 2px);
   background-size: 32px 32px;
   background-color: #ffffff;
 }
