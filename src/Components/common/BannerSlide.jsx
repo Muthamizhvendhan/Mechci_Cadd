@@ -4,7 +4,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 const imageData = [
     {
-      src: "https://placehold.co/300x300",
+      src: "/public/3d.png",
       alt: "Slide 1"
     },
     {
