@@ -7,7 +7,7 @@ const Services = () => {
     <div className="bg-background text-foreground py-6 bg-image1">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-base  font-semibold text-primary tracking-wide uppercase">
+          <h2 className="text-base text-blue-500  font-semibold text-primary tracking-wide uppercase">
             Our Services
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-foreground sm:text-4xl">

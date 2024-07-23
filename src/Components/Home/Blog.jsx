@@ -8,7 +8,7 @@ const Blog = () => {
   return (
     <div className="card-bg text-[var(--foreground)] p-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-sm font-semibold text-[var(--primary)]">
+        <h2 className="text-sm text-blue-500 font-semibold text-[var(--primary)]">
           OUR PRESS
         </h2>
         <h1 className="text-3xl font-bold mt-2">Latest Posts From Our Press</h1>

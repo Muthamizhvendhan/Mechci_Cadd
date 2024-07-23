@@ -8,7 +8,7 @@ const Portfolio = () => {
     <div className="card-bg py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-sm text-[var(--primary)] font-semibold">
+          <h2 className="text-sm text-blue-500 text-[var(--primary)] font-semibold">
             PORTFOLIO
           </h2>
           <h1 className="text-3xl md:text-4xl font-bold">

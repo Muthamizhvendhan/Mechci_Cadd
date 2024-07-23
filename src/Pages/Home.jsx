@@ -5,7 +5,6 @@ import Blog from '../Components/Home/Blog'
 import Form from '../Components/Home/Form'
 import Portfolio from '../Components/Home/Portfolio'
 import Services from '../Components/Home/Services'
-import Testimonials from '../Components/Home/Testimonials'
 import WhyChoose from '../Components/Home/WhyChoose'
 
 const Home = () => {
@@ -16,7 +15,6 @@ const Home = () => {
       <Services/>
       <WhyChoose/>
       <Portfolio/>
-      <Testimonials/>
       <Form/>
       <Blog/>
     </>

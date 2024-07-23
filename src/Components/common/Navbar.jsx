@@ -6,7 +6,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { IoClose } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 
-const NAV_LINK_CLASSES = "text-zinc-500 dark:text-zinc-300 hover:border-zinc-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-md font-medium";
+const NAV_LINK_CLASSES = "text-[#040486] dark:text-zinc-300 hover:border-zinc-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-md font-medium";
 const DROPDOWN_ITEM_CLASSES = "block w-[400px] px-4 py-3 text-md text-zinc-700 dark:text-zinc-300 hover:bg-zinc-800 hover:text-white dark:hover:bg-zinc-800 hover:border-zinc-300";
 
 const Navbar = () => {

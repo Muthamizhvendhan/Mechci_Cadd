@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between p-20 md:p-10 sm:p-5 banner-bg">
       <div className="md:w-1/2 text-center md:text-left">
-        <h4 className="text-blue-500 font-semibold mb-2">MECHCI CADD</h4>
+        <h4 className="dark-texts font-semibold mb-2">MECHCI CADD</h4>
         <h1 className="text-4xl font-bold text-[var(--foreground)] mb-4">
           Design Driven Engineering
         </h1>

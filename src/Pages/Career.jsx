@@ -10,13 +10,12 @@ const Career = () => {
               The best place for your{" "}
               <span className=" text-black px-2 py-1 rounded">future</span>
             </h1>
-            <h1></h1>
             <p className="text-lg mb-6">
               We help you to find the best job to build your future and build a
               better future of digital era.
             </p>
 
-            <div className="mt-8 text-sm text-zinc-400">
+            {/* <div className="mt-8 text-sm text-zinc-400">
               Supported by 3k+ companies
             </div>
             <div className="flex space-x-4 mt-4">
@@ -40,7 +39,7 @@ const Career = () => {
                 alt="Slack logo"
                 className="h-10 max-md:aspect-square"
               />
-            </div>
+            </div> */}
           </div>
           <div className="flex justify-center items-center">
             <div className="card dark:bg-zinc-800 shadow-lg rounded-lg p-8 max-w-4xl w-full">
@@ -101,11 +100,10 @@ const Career = () => {
                   >
                     Choose CV
                     <span
-                    id="file-name"
-                    className="ml-2 text-sm text-gray-500"
-                  ></span>
+                      id="file-name"
+                      className="ml-2 text-sm text-gray-500"
+                    ></span>
                   </label>
-
                 </div>
                 <div>
                   <textarea

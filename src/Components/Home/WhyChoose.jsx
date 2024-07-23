@@ -50,7 +50,7 @@ const WhyChoose = () => {
                 <line x1="17" y1="17" x2="17" y2="17.01"></line>
               </svg>
             </div>
-            <h3 className="mt-6 text-black font-bold">Directive</h3>
+            <h3 className="mt-6 text-black font-bold">Mission</h3>
             <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">
               Tailor your landing page's look and feel, from the color scheme to
               the font size, to the design of the page.
@@ -82,7 +82,7 @@ const WhyChoose = () => {
                 <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3"></polyline>
               </svg>
             </div>
-            <h3 className="mt-6 text-black font-bold">Perspective</h3>
+            <h3 className="mt-6 text-black font-bold">Vision</h3>
             <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">
               We build our templates for speed in mind, for super-fast load
               times so your customers never waver.

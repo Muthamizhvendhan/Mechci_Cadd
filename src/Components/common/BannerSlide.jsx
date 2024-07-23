@@ -4,11 +4,11 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 const imageData = [
     {
-      src: "https://placehold.co/300x300",
+      src: "/public/Picture1.png",
       alt: "Slide 1"
     },
     {
-      src: "https://placehold.co/300x300",
+      src: "/public/Picture1.png",
       alt: "Slide 2"
     },
     {
