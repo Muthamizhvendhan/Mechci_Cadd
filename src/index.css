@@ -74,3 +74,15 @@ body {
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
 }
+
+
+/* Tab Menu */
+
+
+.active h2 {
+  color: #e74c3c;
+}
+
+.active .section-content {
+  color: #e74c3c;
+}

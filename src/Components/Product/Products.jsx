@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { widgetData1, widgetData2 } from "../../data/productData";
 import Banner from "../common/Banner";
+import Accordion from "../Accoridon";
+import AccordionList from "../Accordionmobile";
 
 const Products = () => {
   const [activeTab, setActiveTab] = useState("cadd");
@@ -8,7 +10,9 @@ const Products = () => {
   return (
     // Tab Menu
     <>
-      <Banner bannerImg="https://img.freepik.com/free-photo/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus_1418-704.jpg?t=st=1720250905~exp=1720254505~hmac=39ddfee013728820a7cadd7951a9222fae735dfc8b737807d7a483d17b0a38af&w=1380"/>
+      {/* <Banner bannerImg="https://img.freepik.com/free-photo/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus_1418-704.jpg?t=st=1720250905~exp=1720254505~hmac=39ddfee013728820a7cadd7951a9222fae735dfc8b737807d7a483d17b0a38af&w=1380"/> */}
+      <Accordion />
+      <AccordionList />
       <div className="container mx-auto p-4">
         <h1 className="text-3xl font-bold text-center mb-4">
           Engineering Design
@@ -107,7 +111,7 @@ const Products = () => {
             </div>
           )}
         </div>
-      </div>
+      </div>  
     </>
   );
 };
