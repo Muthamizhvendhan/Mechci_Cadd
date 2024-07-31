@@ -8,7 +8,6 @@ import Gallery from '../Components/About/Gallery'
 import Clients from '../Components/About/Clients'
 import WhyChoose from '../Components/About/WhyChoose'
 import Cta from '../Components/About/Cta'
-import Accordion from '../Components/Accoridon'
 
 const About = () => {
   return (
@@ -21,7 +20,6 @@ const About = () => {
       <Gallery/>
       <Cta/>
       <Clients/>
-      <Accordion/>
     </>
   )
 }
