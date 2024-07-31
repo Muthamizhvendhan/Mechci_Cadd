@@ -1,14 +1,14 @@
-import React from 'react'
-import Products from '../Components/Product/Products'
-import Cta from '../Components/About/Cta'
+import React from "react";
+import Cta from "../Components/About/Cta";
+import AccordionMenu from "../Components/Product/AccordionMenu";
 
 const EnggDesign = () => {
   return (
     <div>
-      <Products /> 
-      <Cta/>
+      <AccordionMenu />
+      <Cta />
     </div>
-  )
-}
+  );
+};
 
-export default EnggDesign
+export default EnggDesign;

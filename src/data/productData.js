@@ -1,10 +1,11 @@
 export const widgetData1 = [
   {
+    tabmenu:"Tab Menu 1",
     imageSrc: "https://placehold.co/150x150",
     imageAlt: "Conceptual Design Image 1",
     title: "Conceptual Design",
     description: [
-      "Description for Conceptual Design 3. Focusing on initial design phases.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis risus viverra, cursus lacus non, fermentum mi. Mauris commodo dui ut magna convallis, id interdum dolor volutpat. Nulla facilisi. Etiam nec lacinia ex. Integer nec risus quis mauris accumsan consequat ac sit amet ligula. Nam porttitor nisi at purus laoreet, vel tristique lorem sollicitudin. Aenean vitae nisi magna. Vivamus euismod malesuada neque, vitae scelerisque libero ullamcorper sit amet. Fusce sollicitudin metus vel eros vestibulum, et ultricies turpis pretium. Mauris facilisis, odio at fermentum consequat, metus erat feugiat leo, nec ultrices odio lorem id libero. In hac habitasse platea dictumst.",
       "Our services include a comprehensive approach to conceptual design.",
     ],
     listItems: [
@@ -14,11 +15,12 @@ export const widgetData1 = [
     ],
   },
   {
+    tabmenu:"Tab Menu 2",
     imageSrc: "https://placehold.co/150x150",
-    imageAlt: "Conceptual Design Image 1",
-    title: "Reverse Engineeering",
+    imageAlt: "Pipe Drafting & Detailing Image 1",
+    title: "Pipe Drafting & Detailing",
     description: [
-      "Description for Conceptual Design 3. Focusing on initial design phases.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis risus viverra, cursus lacus non, fermentum mi. Mauris commodo dui ut magna convallis, id interdum dolor volutpat. Nulla facilisi. Etiam nec lacinia ex. Integer nec risus quis mauris accumsan consequat ac sit amet ligula. Nam porttitor nisi at purus laoreet, vel tristique lorem sollicitudin. Aenean vitae nisi magna. Vivamus euismod malesuada neque, vitae scelerisque libero ullamcorper sit amet. Fusce sollicitudin metus vel eros vestibulum, et ultricies turpis pretium. Mauris facilisis, odio at fermentum consequat, metus erat feugiat leo, nec ultrices odio lorem id libero. In hac habitasse platea dictumst.",
       "Our services include a comprehensive approach to conceptual design.",
     ],
     listItems: [
@@ -28,55 +30,79 @@ export const widgetData1 = [
     ],
   },
   {
+    tabmenu:"Tab Menu 3",
     imageSrc: "https://placehold.co/150x150",
-    imageAlt: "Conceptual Design Image 2",
-    title: "Product Development",
+    imageAlt: "Pipe Drafting & Detailing Image 1",
+    title: "Pipe Drafting & Detailing",
     description: [
-      "Description for Conceptual Design 3. Focusing on initial design phases.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis risus viverra, cursus lacus non, fermentum mi. Mauris commodo dui ut magna convallis, id interdum dolor volutpat. Nulla facilisi. Etiam nec lacinia ex. Integer nec risus quis mauris accumsan consequat ac sit amet ligula. Nam porttitor nisi at purus laoreet, vel tristique lorem sollicitudin. Aenean vitae nisi magna. Vivamus euismod malesuada neque, vitae scelerisque libero ullamcorper sit amet. Fusce sollicitudin metus vel eros vestibulum, et ultricies turpis pretium. Mauris facilisis, odio at fermentum consequat, metus erat feugiat leo, nec ultrices odio lorem id libero. In hac habitasse platea dictumst.",
       "Our services include a comprehensive approach to conceptual design.",
     ],
-    listItems: ["Brainstorming", "Sketching & Modeling", "Advanced Simulation"],
+    listItems: [
+      "Ideation",
+      "Concept Development & Refinement",
+      "Solid Modeling & Rendering using SolidWorks, Pro/E, Inventor etc;",
+    ],
   },
   {
+    tabmenu:"Tab Menu 4",
     imageSrc: "https://placehold.co/150x150",
-    imageAlt: "Conceptual Design Image 3",
-    title: "Mold Design & Detailing",
+    imageAlt: "Pipe Drafting & Detailing Image 1",
+    title: "Pipe Drafting & Detailing",
     description: [
-      "Description for Conceptual Design 3. Focusing on initial design phases.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis risus viverra, cursus lacus non, fermentum mi. Mauris commodo dui ut magna convallis, id interdum dolor volutpat. Nulla facilisi. Etiam nec lacinia ex. Integer nec risus quis mauris accumsan consequat ac sit amet ligula. Nam porttitor nisi at purus laoreet, vel tristique lorem sollicitudin. Aenean vitae nisi magna. Vivamus euismod malesuada neque, vitae scelerisque libero ullamcorper sit amet. Fusce sollicitudin metus vel eros vestibulum, et ultricies turpis pretium. Mauris facilisis, odio at fermentum consequat, metus erat feugiat leo, nec ultrices odio lorem id libero. In hac habitasse platea dictumst.",
       "Our services include a comprehensive approach to conceptual design.",
     ],
-    listItems: ["Design Research", "Prototype Development", "User Testing"],
-  },
-  {
-    imageSrc: "https://placehold.co/150x150",
-    imageAlt: "Conceptual Design Image 4",
-    title: "Engineering Animation",
-    description: [
-      "Description for Conceptual Design 4. Integrating design and functionality.",
-      "We ensure the highest standards in all our conceptual design projects.",
+    listItems: [
+      "Ideation",
+      "Concept Development & Refinement",
+      "Solid Modeling & Rendering using SolidWorks, Pro/E, Inventor etc;",
     ],
-    listItems: ["Market Analysis", "Product Refinement", "Final Prototyping"],
   },
+  
   {
+    tabmenu:"Tab Menu 5",
     imageSrc: "https://placehold.co/150x150",
-    imageAlt: "Conceptual Design Image 4",
-    title: "Structural Design & Detailing",
+    imageAlt: "Pipe Drafting & Detailing Image 1",
+    title: "Pipe Drafting & Detailing",
     description: [
-      "Description for Conceptual Design 4. Integrating design and functionality.",
-      "We ensure the highest standards in all our conceptual design projects.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis risus viverra, cursus lacus non, fermentum mi. Mauris commodo dui ut magna convallis, id interdum dolor volutpat. Nulla facilisi. Etiam nec lacinia ex. Integer nec risus quis mauris accumsan consequat ac sit amet ligula. Nam porttitor nisi at purus laoreet, vel tristique lorem sollicitudin. Aenean vitae nisi magna. Vivamus euismod malesuada neque, vitae scelerisque libero ullamcorper sit amet. Fusce sollicitudin metus vel eros vestibulum, et ultricies turpis pretium. Mauris facilisis, odio at fermentum consequat, metus erat feugiat leo, nec ultrices odio lorem id libero. In hac habitasse platea dictumst.",
+      "Our services include a comprehensive approach to conceptual design.",
     ],
-    listItems: ["Market Analysis", "Product Refinement", "Final Prototyping"],
+    listItems: [
+      "Ideation",
+      "Concept Development & Refinement",
+      "Solid Modeling & Rendering using SolidWorks, Pro/E, Inventor etc;",
+    ],
   },
+  
 ];
 
 
 export const widgetData2 = [
   {
+    tabmenu:"Tab Menu 1",
+    imageSrc: "https://placehold.co/150x150",
+    imageAlt: "Conceptual Design Image 1",
+    title: "Conceptual Design",
+    description: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis risus viverra, cursus lacus non, fermentum mi. Mauris commodo dui ut magna convallis, id interdum dolor volutpat. Nulla facilisi. Etiam nec lacinia ex. Integer nec risus quis mauris accumsan consequat ac sit amet ligula. Nam porttitor nisi at purus laoreet, vel tristique lorem sollicitudin. Aenean vitae nisi magna. Vivamus euismod malesuada neque, vitae scelerisque libero ullamcorper sit amet. Fusce sollicitudin metus vel eros vestibulum, et ultricies turpis pretium. Mauris facilisis, odio at fermentum consequat, metus erat feugiat leo, nec ultrices odio lorem id libero. In hac habitasse platea dictumst.",
+      "Our services include a comprehensive approach to conceptual design.",
+    ],
+    listItems: [
+      "Ideation",
+      "Concept Development & Refinement",
+      "Solid Modeling & Rendering using SolidWorks, Pro/E, Inventor etc;",
+    ],
+  },
+
+  {
+    tabmenu:"Tab Menu 2",
     imageSrc: "https://placehold.co/150x150",
     imageAlt: "Pipe Drafting & Detailing Image 1",
     title: "Pipe Drafting & Detailing",
     description: [
-      "Description for Conceptual Design 3. Focusing on initial design phases.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis risus viverra, cursus lacus non, fermentum mi. Mauris commodo dui ut magna convallis, id interdum dolor volutpat. Nulla facilisi. Etiam nec lacinia ex. Integer nec risus quis mauris accumsan consequat ac sit amet ligula. Nam porttitor nisi at purus laoreet, vel tristique lorem sollicitudin. Aenean vitae nisi magna. Vivamus euismod malesuada neque, vitae scelerisque libero ullamcorper sit amet. Fusce sollicitudin metus vel eros vestibulum, et ultricies turpis pretium. Mauris facilisis, odio at fermentum consequat, metus erat feugiat leo, nec ultrices odio lorem id libero. In hac habitasse platea dictumst.",
       "Our services include a comprehensive approach to conceptual design.",
     ],
     listItems: [
@@ -85,51 +111,28 @@ export const widgetData2 = [
       "Solid Modeling & Rendering using SolidWorks, Pro/E, Inventor etc;",
     ],
   },
-  {
-    imageSrc: "https://placehold.co/150x150",
-    imageAlt: "As Built Drawings Image",
-    title: "As Built Drawings",
-    description: [
-      "Description for Conceptual Design 3. Focusing on initial design phases.",
-      "Our services include a comprehensive approach to conceptual design.",
-    ],
-    listItems: [
-      "Ideation",
-      "Concept Development & Refinement",
-      "Solid Modeling & Rendering using SolidWorks, Pro/E, Inventor etc;",
-    ],
-  },
-  {
-    imageSrc: "https://placehold.co/150x150",
-    imageAlt: "Structural Analysis Image",
-    title: "Structural Analysis",
-    description: [
-      "Description for Conceptual Design 3. Focusing on initial design phases.",
-      "Our services include a comprehensive approach to conceptual design.",
-    ],
-    listItems: ["Brainstorming", "Sketching & Modeling", "Advanced Simulation"],
-  },
-  {
-    imageSrc: "https://placehold.co/150x150",
-    imageAlt: "Plant design using PDS,PDMS Analysis Image",
-    title: "Plant design using PDS,PDMS Analysis",
-    description: [
-      "Description for Conceptual Design 3. Focusing on initial design phases.",
-      "Our services include a comprehensive approach to conceptual design.",
-    ],
-    listItems: ["Design Research", "Prototype Development", "User Testing"],
-  },
-  {
-    imageSrc: "https://placehold.co/150x150",
-    imageAlt: "Pipe Stress Analysis Image 4",
-    title: "Pipe Stress Analysis",
-    description: [
-      "Description for Conceptual Design 4. Integrating design and functionality.",
-      "We ensure the highest standards in all our conceptual design projects.",
-    ],
-    listItems: ["Market Analysis", "Product Refinement", "Final Prototyping"],
-  },
+  
+  
 ];
+
+
+// export const widgetData2 = [
+//   {
+//     imageSrc: "https://placehold.co/150x150",
+//     imageAlt: "Pipe Drafting & Detailing Image 1",
+//     title: "Pipe Drafting & Detailing",
+//     description: [
+//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis risus viverra, cursus lacus non, fermentum mi. Mauris commodo dui ut magna convallis, id interdum dolor volutpat. Nulla facilisi. Etiam nec lacinia ex. Integer nec risus quis mauris accumsan consequat ac sit amet ligula. Nam porttitor nisi at purus laoreet, vel tristique lorem sollicitudin. Aenean vitae nisi magna. Vivamus euismod malesuada neque, vitae scelerisque libero ullamcorper sit amet. Fusce sollicitudin metus vel eros vestibulum, et ultricies turpis pretium. Mauris facilisis, odio at fermentum consequat, metus erat feugiat leo, nec ultrices odio lorem id libero. In hac habitasse platea dictumst.",
+//       "Our services include a comprehensive approach to conceptual design.",
+//     ],
+//     listItems: [
+//       "Ideation",
+//       "Concept Development & Refinement",
+//       "Solid Modeling & Rendering using SolidWorks, Pro/E, Inventor etc;",
+//     ],
+//   },
+ 
+// ];
 
 export const imageData = {
   plant: [
