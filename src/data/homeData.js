@@ -12,7 +12,7 @@ export const NAV_LINKS = [
     { 
       label: 'Title', href: '/', subMenu: [
         { label: 'Client', href: '/clients' },
-        { label: 'Gallery', href: '/' },
+        { label: 'Gallery', href: '/gallery' },
       ]
     },
     { label: 'Career', href: '/career', subMenu: [] },

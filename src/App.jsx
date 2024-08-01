@@ -18,6 +18,7 @@ import Career from './Pages/Career'
 import ScrollToTop from './Components/common/ScrollTop';
 import BackToTopButton from './Components/common/BackToTop';
 import Clients from './Pages/Clients';
+import Gallery from './Pages/Gallery';
 
 
 
@@ -36,6 +37,8 @@ const App = () => {
             <Route path="/employee-hr" element={<EmpHR />} />
             <Route path="/engineering-design-manufacture" element={<EnggDesignandManufacture />} />
             <Route path="/clients" element={<Clients />} />
+            <Route path="/gallery" element={<Gallery />} />
+
             <Route path="/career" element={<Career />} />
             <Route path="/contact-us" element={<ContactUs />} />
           </Routes>

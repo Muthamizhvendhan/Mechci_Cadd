@@ -18,33 +18,8 @@ const Career = () => {
               </p>
               <Careercard />
 
-              {/* <div className="mt-8 text-sm text-zinc-400">
-              Supported by 3k+ companies
             </div>
-            <div className="flex space-x-4 mt-4">
-              <img
-                src="https://placehold.co/100x40?text=Meta"
-                alt="Meta logo"
-                className="h-10 max-md:aspect-square"
-              />
-              <img
-                src="https://placehold.co/100x40?text=Google"
-                alt="Google logo"
-                className="h-10 max-md:aspect-square"
-              />
-              <img
-                src="https://placehold.co/100x40?text=LinkedIn"
-                alt="LinkedIn logo"
-                className="h-10 max-md:aspect-square"
-              />
-              <img
-                src="https://placehold.co/100x40?text=Slack"
-                alt="Slack logo"
-                className="h-10 max-md:aspect-square"
-              />
-            </div> */}
-            </div>
-            <div className="flex justify-center items-center">
+            {/* <div className="flex justify-center items-center">
               <div className="card dark:bg-zinc-800 shadow-lg rounded-lg p-8 max-w-4xl w-full">
                 <form className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -78,10 +53,7 @@ const Career = () => {
                         className="mt-1 block w-full rounded-full p-3 border-zinc-300 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50 dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder-zinc-400 dark:text-white focus:outline-none"
                       >
                         <option value>Domain</option>
-                        <option value={"Value"}>Value</option>
-                        <option value={"Value"}>Value</option>
-                        <option value={"Value"}>Value</option>
-                        <option value={"Value"}>Value</option>
+                        <option value={"Value"}>others</option>
                       </select>
                     </div>
                   </div>
@@ -128,7 +100,7 @@ const Career = () => {
                   </div>
                 </form>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="mt-12 card bg-blue-200 rounded-lg py-8">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-blue-400">
