@@ -49,9 +49,9 @@ const data = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
     expectations: [
-      "Develop electronic systems",
-      "Test and evaluate prototypes",
-      "Work on circuit design and integration",
+      "Design mechanical systems",
+      "Ensure compliance with safety regulations.",
+      "Ensure compliance with safety regulations.",
     ],
     icon: "/engineer.png",
     bgColor: "bg-card",
@@ -61,7 +61,7 @@ const data = [
 ];
 const Careercard = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
       {data.map((item) => (
         <div
           key={item.id}
@@ -80,7 +80,7 @@ const Careercard = () => {
               {item.expectations[0]} {/* To be used as a heading or title */}
             </p>
             <ul
-              className={`${item.textColor} mb-4 text-sm text-justify list-disc pl-5`}
+              className={`${item.textColor} mb-4 text-sm text-left list-disc pl-5`}
             >
               {item.expectations.slice(1).map((expectation, index) => (
                 <li key={index}>{expectation}</li>
@@ -93,7 +93,7 @@ const Careercard = () => {
           <div className="flex justify-end mt-5">
             <button
               type="submit"
-              className="button relative overflow-hidden h-12 px-8 rounded-md bg-[#3d3a4e] text-white border-none cursor-pointer"
+              className="button relative overflow-hidden h-12 px-2 rounded-md bg-[#3d3a4e] text-white border-none cursor-pointer"
             >
               <span className="button-content relative z-10">Apply Now</span>
             </button>
