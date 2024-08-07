@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import Accordion from "../Accoridon";
 import AccordionList from "../Accordionmobile";
 import Products from "./Products";
-import Imagecards from "./Imagecards";
-import { widgetData1,widgetData2 } from "../../data/productData";
+import { widgetData1,widgetData2,widgetData3 } from "../../data/productData";
 
 const sections = [
   {
@@ -26,7 +25,7 @@ const sections = [
     title: "Inhouse expertise teams",
     content: (
       <>
-        <Imagecards />
+         <Products data={widgetData3} />
       </>
     ),
   },
