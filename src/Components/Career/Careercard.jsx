@@ -75,7 +75,7 @@ const Careercard = () => {
             />
             <h2 className="text-xl font-bold">{item.title}</h2>
           </div>
-          <div className="bg-[#929cf02e] p-1 rounded-lg mb-4">
+          <div className="bg-[#929cf02e] p-2 rounded-lg mb-4">
             <p className={`${item.textColor} mb-4 text-md font-semibold`}>
               {item.expectations[0]} {/* To be used as a heading or title */}
             </p>

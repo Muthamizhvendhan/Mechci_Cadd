@@ -57,9 +57,11 @@ body {
 }
 
 .bg-image {
-  background-image: url(/public/contact-banne.webp);
+  background: #e7f0ff;
   background-position: unset;
 }
+.bg-vid { position: fixed; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+
 
 .bg-image1 {
   background-image: url(/public/BGG.svg);

@@ -3,7 +3,7 @@ import 'tailwindcss/tailwind.css'; // Ensure Tailwind CSS is imported
 
 const sections = [
   {
-    title: 'Engineering Design',
+    title: 'Service Spectrum',
     content: 'We have identified precise customer personas based on demographics, behaviours, and pain points, allowing us to tailor our messaging effectively. We have identified precise customer personas based on demographics, behaviours, and pain points.',
     backgroundImage: "url('https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80')",
     buttonText: 'Learn More',

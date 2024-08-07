@@ -4,6 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
+import FloatingButtons from "./FloatingButtons";
 
 const Footer = () => {
   return (
@@ -173,6 +174,7 @@ const Footer = () => {
             2024, All rights reserved.
           </span>
         </div>
+        <FloatingButtons/>
       </div>
     </section>
   );

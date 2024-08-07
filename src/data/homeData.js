@@ -3,7 +3,7 @@ export const NAV_LINKS = [
     { label: 'About', href: '/about', subMenu: [] },
     { 
       label: 'Service', href: '/', subMenu: [
-        { label: 'Engineering Design', href: '/engineering-design' },
+        { label: 'Service Spectrum', href: '/engineering-design' },
         { label: 'Employment-HR', href: '/' },
         { label: 'Engineering Design & Manufacturing Support', href: '/' },
         { label: 'Education - CAD/CAM, Piping & PDS', href: '/' },

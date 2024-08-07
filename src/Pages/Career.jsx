@@ -19,7 +19,7 @@ const Career = () => {
               <Careercard />
 
             </div>
-            {/* <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
               <div className="card dark:bg-zinc-800 shadow-lg rounded-lg p-8 max-w-4xl w-full">
                 <form className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -100,7 +100,7 @@ const Career = () => {
                   </div>
                 </form>
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="mt-12 card bg-blue-200 rounded-lg py-8">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-blue-400">

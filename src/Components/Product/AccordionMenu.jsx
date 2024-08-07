@@ -3,20 +3,22 @@ import Accordion from "../Accoridon";
 import AccordionList from "../Accordionmobile";
 import Products from "./Products";
 import Imagecards from "./Imagecards";
+import { widgetData1,widgetData2 } from "../../data/productData";
+
 const sections = [
   {
     title: "Area of Services",
     content: (
       <>
-        <Products />
+        <Products data={widgetData1}  />
       </>
     ),
   },
   {
-    title: "Range of Services",
+    title: "Area of Business",
     content: (
       <>
-        <Products />
+        <Products data={widgetData2} />
       </>
     ),
   },
