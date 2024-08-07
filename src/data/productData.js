@@ -1,7 +1,7 @@
 export const widgetData1 = [
   {
     tabmenu: "Oil & Gas Plants",
-    title: "Conceptual Design",
+    title: "Oil & Gas Plants",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
@@ -12,7 +12,7 @@ export const widgetData1 = [
   },
   {
     tabmenu: "Petro-Chemical Plants",
-    title: "Pipe Drafting & Detailing",
+    title: "Petro-Chemical Plants",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
@@ -21,7 +21,7 @@ export const widgetData1 = [
   },
   {
     tabmenu: "Refinery",
-    title: "Pipe Drafting & Detailing",
+    title: "Refinery",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
@@ -30,7 +30,7 @@ export const widgetData1 = [
   },
   {
     tabmenu: "Chemical Plants",
-    title: "Pipe Drafting & Detailing",
+    title: "Chemical Plants",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
@@ -39,7 +39,7 @@ export const widgetData1 = [
   },
   {
     tabmenu: "Power Plants",
-    title: "Pipe Drafting & Detailing",
+    title: "Power Plants",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
@@ -51,7 +51,7 @@ export const widgetData1 = [
 export const widgetData2 = [
   {
     tabmenu: "Pre-bid Engineering",
-    title: "Conceptual Design",
+    title: "Pre-bid Engineering",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
@@ -64,7 +64,7 @@ export const widgetData2 = [
   },
   {
     tabmenu: "Basic Engineering Services",
-    title: "Pipe Drafting & Detailing",
+    title: "Basic Engineering Services",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
@@ -73,7 +73,7 @@ export const widgetData2 = [
   },
   {
     tabmenu: "Design Engineering Services",
-    title: "Pipe Drafting & Detailing",
+    title: "Design Engineering Services",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
@@ -82,7 +82,7 @@ export const widgetData2 = [
   },
   {
     tabmenu: "Detailed Engineering Services",
-    title: "Pipe Drafting & Detailing",
+    title: "Detailed Engineering Services",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
@@ -91,7 +91,7 @@ export const widgetData2 = [
   },
   {
     tabmenu: "Review Engineering Services",
-    title: "Pipe Drafting & Detailing",
+    title: "Review Engineering Services",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
@@ -100,7 +100,7 @@ export const widgetData2 = [
   },
   {
     tabmenu: "As-Built Drawings Updates",
-    title: "Pipe Drafting & Detailing",
+    title: "As-Built Drawings Updates",
     listItems: [
       "Ideation",
       "Concept Development & Refinement",
