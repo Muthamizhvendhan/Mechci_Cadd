@@ -2,19 +2,20 @@ import React from "react";
 
 const WhyChoose = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white  bg-gradient-to-br from-purple-600 to-pink-500">
+      <div className="bg-image-left">
       <section
         id="features"
-        className="relative block px-6 py-10 md:py-20 md:px-10 "
+        className="relative block px-6 py-10 md:py-20 md:px-10"
       >
         <div className="relative mx-auto max-w-5xl text-center">
-          <span className="text-blue-500 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
+          <span className="text-white my-3 flex items-center justify-center font-medium uppercase tracking-wider">
             Our Principles
           </span>
-          <h2 className="block w-full bg-black bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
+          <h2 className="block w-full bg-white bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
             Build a Website That Your Customers Love
           </h2>
-          <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-black">
+          <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-white">
             Our templates allow for maximum customization. No technical skills
             required - our intuitive design tools let you get the job done
             easily.
@@ -22,7 +23,7 @@ const WhyChoose = () => {
         </div>
 
         <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="rounded-md p-8 text-center shadow-sm hover:shadow-lg">
+          <div className="rounded-md p-8 text-center shadow-sm hover:shadow-lg card">
             <div
               className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border"
               style={{
@@ -50,14 +51,14 @@ const WhyChoose = () => {
                 <line x1="17" y1="17" x2="17" y2="17.01"></line>
               </svg>
             </div>
-            <h3 className="mt-6 text-black font-bold">Mission</h3>
-            <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">
+            <h3 className="mt-6 text-white font-bold">Mission</h3>
+            <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-white">
               Tailor your landing page's look and feel, from the color scheme to
               the font size, to the design of the page.
             </p>
           </div>
 
-          <div className="rounded-md shadow-sm hover:shadow-lg p-8 text-center">
+          <div className="rounded-md shadow-sm hover:shadow-lg p-8 text-center card">
             <div
               className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border"
               style={{
@@ -82,14 +83,14 @@ const WhyChoose = () => {
                 <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3"></polyline>
               </svg>
             </div>
-            <h3 className="mt-6 text-black font-bold">Vision</h3>
-            <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">
+            <h3 className="mt-6 text-white font-bold">Vision</h3>
+            <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-white">
               We build our templates for speed in mind, for super-fast load
               times so your customers never waver.
             </p>
           </div>
 
-          <div className="rounded-md shadow-sm hover:shadow-lg p-8 text-center">
+          <div className="rounded-md shadow-sm hover:shadow-lg p-8 text-center card">
             <div
               className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border"
               style={{
@@ -119,14 +120,15 @@ const WhyChoose = () => {
                 <line x1="16" y1="17" x2="14.5" y2="18.5"></line>
               </svg>
             </div>
-            <h3 className="mt-6 text-black font-bold">Standard</h3>
-            <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-black">
+            <h3 className="mt-6 text-white font-bold">Standard</h3>
+            <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-white">
               Everything you need to succeed and launch your landing page, right
               out of the box. No need to install anything else.
             </p>
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 };

@@ -65,9 +65,9 @@ const Careercard = () => {
       {data.map((item) => (
         <div
           key={item.id}
-          className={`${item.bgColor} rounded-lg shadow-lg p-6 bg-white`}
+          className={`${item.bgColor} rounded-lg shadow-lg p-6 card`}
         >
-          <div className="flex items-center mb-4 bg-[#f6f6f7] rounded-lg p-1">
+          <div className="flex items-center mb-4 card rounded-lg p-1">
             <img
               src={item.icon}
               alt={item.iconAlt || "icon"}
@@ -75,7 +75,7 @@ const Careercard = () => {
             />
             <h2 className="text-xl font-bold">{item.title}</h2>
           </div>
-          <div className="bg-[#929cf02e] p-2 rounded-lg mb-4">
+          <div className="card p-2 rounded-lg mb-4">
             <p className={`${item.textColor} mb-4 text-md font-semibold`}>
               {item.expectations[0]} {/* To be used as a heading or title */}
             </p>

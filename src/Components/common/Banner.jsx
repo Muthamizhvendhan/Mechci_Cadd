@@ -20,7 +20,7 @@ const Banner = ({ bannerImg, bannerCnt }) => {
   };
 
   return (
-    <div className="relative w-full aspect-video">
+    <div className="relative w-full aspect-video element-scroll">
       <img
         src={bannerImg}
         alt="Background Image"

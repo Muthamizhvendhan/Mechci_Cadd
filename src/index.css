@@ -7,23 +7,22 @@ body {
 }
 
 .banner-bg {
-  background-image: linear-gradient(
-      rgba(4, 4, 134, 0.32) 1px,
-      transparent 2px
-    ),
+  background-image: linear-gradient(rgba(4, 4, 134, 0.32) 1px, transparent 2px),
     linear-gradient(to right, rgba(4, 4, 134, 0.32) 1px, transparent 2px);
   background-size: 32px 32px;
   background-color: #ffffff;
 }
-.dark-texts{
+.dark-texts {
   color: #040486;
 }
 .bt-color {
   background-color: #0000ff;
 }
 
-.back {
-  background: url(../public/bg.jpg);
+.work {
+  background: url(../public/about.jpg);
+  background-size: auto;
+  height: fit-content;
 }
 .card-bg {
   background-color: #f6f3f3;
@@ -46,6 +45,97 @@ body {
   letter-spacing: 0.2em;
 }
 
+/* scroll */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 90%;
+  }
+}
+
+.element-scroll {
+  animation: fadeIn 0.8s forwards;
+  animation-timeline: inherit;
+}
+
+/* scrollin */
+@keyframes revealFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* floating hover */
+/* Tailwind custom CSS */
+@keyframes rotateLoader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hover-preload {
+  position: relative;
+}
+
+.hover-preload::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top: 2px solid #891652;
+  animation: rotateLoader 1s linear infinite;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-preload:hover::before {
+  opacity: 1;
+}
+/* floating hover */
+
+/* Apply animation to the element */
+.element-left {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: revealFromLeft 1s ease-out forwards;
+  animation-delay: 0.3s; /* You can adjust the delay as needed */
+}
+
+/* Optionally, you can use this to apply the animation when hovering */
+.element-left:hover {
+  animation: revealFromLeft 1s ease-out forwards;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* scroll */
+/* rotate */
+.rotate-path {
+  transform-origin: center;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* rotate */
+
 .number {
   background-image: linear-gradient(
     82.3deg,
@@ -57,17 +147,75 @@ body {
 }
 
 .bg-image {
-  background: #e7f0ff;
-  background-position: unset;
+  background: url(/public/blo.png);
+  background-position: initial;
 }
-.bg-vid { position: fixed; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .bg-image {
+    background: url(/public/blo.png) no-repeat center center;
+    background-position: top;
+  }
+}
+@media screen and (max-width: 767px) {
+  .bg-image {
+    background: url(/public/blo.png) no-repeat center center;
+    background-position: top;
+  }
+}
+.bg-image-left {
+  background: url(/public/vector-1.png);
+  background-position: right;
+}
+.blg {
+  background: hsla(27, 83%, 77%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(27, 83%, 77%, 1) 0%,
+    hsla(283, 36%, 70%, 1) 50%,
+    hsla(285, 63%, 85%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(27, 83%, 77%, 1) 0%,
+    hsla(283, 36%, 70%, 1) 50%,
+    hsla(285, 63%, 85%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(27, 83%, 77%, 1) 0%,
+    hsla(283, 36%, 70%, 1) 50%,
+    hsla(285, 63%, 85%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F5C094", endColorstr="#BF98CF", GradientType=1 );
+}
+.bg-image-via {
+  background: url(/public/b3.png);
+  background-position: initial;
+}
+.bg-image01 {
+  background: url(/public/b1.jpg);
+  background-position: contain;
+}
 
 .bg-image1 {
   background-image: url(/public/BGG.svg);
-  background-position: inherit ;
+  background-position: inherit;
 }
-
+.bg-image2 {
+  background-image: linear-gradient(to bottom, transparent, #00000070),
+    url("/public/b2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-position: top;
+  /*background-attachment: fixed;*/
+  backdrop-filter: blur(3px);
+  background-color: #000;
+}
 
 .card {
   backdrop-filter: blur(12px) saturate(180%);
@@ -77,9 +225,7 @@ body {
   border: 1px solid rgba(209, 213, 219, 0.3);
 }
 
-
 /* Tab Menu */
-
 
 .active h2 {
   color: #e74c3c;
@@ -89,10 +235,7 @@ body {
   color: #e74c3c;
 }
 
-
-
 /* Image Cards for service page */
-
 
 @keyframes fadeIn {
   from {
@@ -127,6 +270,5 @@ figure h2 {
 figure {
   font-family: "Outfit", sans-serif;
 }
-
 
 /* Gallery */

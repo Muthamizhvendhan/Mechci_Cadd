@@ -38,7 +38,7 @@ const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <ul className="hidden lg:flex min-h-screen max-h-screen m-0 p-0 overflow-hidden list-none">
+    <ul className="hidden lg:flex min-h-screen max-h-screen m-0 p-0 overflow-hidden list-none element-left">
       {sections.map((section, index) => (
         <li
           key={index}

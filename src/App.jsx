@@ -11,7 +11,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import EduCadd from './Pages/EduCadd'
 import EmpHR from './Pages/EmpHR'
-import EnggDesign from './Pages/EnggDesign'
+import ServiceSpectrum from './Pages/ServiceSpectrum'
 import EnggDesignandManufacture from './Pages/EnggDesignandManufacture'
 import ContactUs from './Pages/ContactUs'
 import Career from './Pages/Career'
@@ -32,7 +32,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/engineering-design" element={<EnggDesign />} />
+            <Route path="/service-spectrum" element={<ServiceSpectrum />} />
             <Route path="/education-cadd" element={<EduCadd />} />
             <Route path="/employee-hr" element={<EmpHR />} />
             <Route path="/engineering-design-manufacture" element={<EnggDesignandManufacture />} />

@@ -4,15 +4,15 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 const imageData = [
     {
-      src: "/public/3d.png",
+      src: "/public/banner/design-1.png",
       alt: "Slide 1"
     },
     {
-      src: "/public/3d.png",
+      src: "/public/banner/design-2.png",
       alt: "Slide 2"
     },
     {
-      src: "/public/3d.png",
+      src: "/public/banner/design-3.png",
       alt: "Slide 3"
     }
   ];
@@ -34,7 +34,7 @@ const BannerSlide = () => {
         <SplideSlide key={index}>
           <div className="relative">
             <img
-              className="w-full aspect-square object-cover"
+              className="w-full aspect-square"
               src={image.src}
               alt={image.alt}
             />
