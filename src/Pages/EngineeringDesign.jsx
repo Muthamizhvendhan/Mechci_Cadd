@@ -2,7 +2,7 @@ import React from "react";
 import Cta from "../Components/About/Cta";
 import AccordionMenu from "../Components/Product/AccordionMenu";
 
-const ServiceSpectrum = () => {
+const EngineeringDesign = () => {
   return (
     <div>
       <AccordionMenu />
@@ -11,4 +11,4 @@ const ServiceSpectrum = () => {
   );
 };
 
-export default ServiceSpectrum;
+export default EngineeringDesign;

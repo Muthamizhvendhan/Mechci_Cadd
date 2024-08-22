@@ -19,9 +19,22 @@ body {
   background-color: #0000ff;
 }
 
+.card-1 {
+
+  backdrop-filter: blur(3px) saturate(180%);
+  -webkit-backdrop-filter: blur(3px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.21);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+
+.highlight{
+  color: red;
+}
 .work {
   background: url(../public/about.jpg);
-  background-size: auto;
+  background-size: cover;
   height: fit-content;
 }
 .card-bg {
@@ -145,26 +158,31 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .bg-image {
-  background: url(/public/blo.png);
-  background-position: initial;
+  background: url(/blo.png)  no-repeat center center;
+  background-position: right;
+  width: 100%;
+}
+.bg-images {
+  background: url(/blo.png)  no-repeat center center;
+  background-position: right;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .bg-image {
-    background: url(/public/blo.png) no-repeat center center;
+    background: url(/blo.png) no-repeat center center;
     background-position: top;
   }
 }
 @media screen and (max-width: 767px) {
   .bg-image {
-    background: url(/public/blo.png) no-repeat center center;
+    background: url(/blo.png) no-repeat center center;
     background-position: top;
   }
 }
 .bg-image-left {
-  background: url(/public/vector-1.png);
+  background: url(/vector-1.png);
   background-position: right;
 }
 .blg {
@@ -199,7 +217,8 @@ body {
 }
 .bg-image01 {
   background: url(/public/b1.jpg);
-  background-position: contain;
+  background-position: inherit;
+  width: auto;
 }
 
 .bg-image1 {

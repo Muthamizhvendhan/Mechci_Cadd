@@ -11,7 +11,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import EduCadd from './Pages/EduCadd'
 import EmpHR from './Pages/EmpHR'
-import ServiceSpectrum from './Pages/ServiceSpectrum'
+import EngineeringDesign from './Pages/EngineeringDesign'
 import EnggDesignandManufacture from './Pages/EnggDesignandManufacture'
 import ContactUs from './Pages/ContactUs'
 import Career from './Pages/Career'
@@ -19,7 +19,6 @@ import ScrollToTop from './Components/common/ScrollTop';
 import BackToTopButton from './Components/common/BackToTop';
 import Clients from './Pages/Clients';
 import Gallery from './Pages/Gallery';
-
 
 
 const App = () => {
@@ -32,7 +31,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/service-spectrum" element={<ServiceSpectrum />} />
+            <Route path="/engineering-design" element={<EngineeringDesign />} />
             <Route path="/education-cadd" element={<EduCadd />} />
             <Route path="/employee-hr" element={<EmpHR />} />
             <Route path="/engineering-design-manufacture" element={<EnggDesignandManufacture />} />

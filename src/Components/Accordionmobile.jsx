@@ -41,32 +41,8 @@ const items = [
     ],
     background: "#FFF",
   },
-  {
-    id: "item4",
-    title: "HR Employment",
-    images: [
-      {
-        src: "http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg",
-        title: "Engineering Design",
-        content:
-          "We have identified precise customer personas based on demographics, behaviours, and pain points, allowing us to tailor our messaging effectively. We have identified precise customer personas based on demographics, behaviours, and pain points.",
-      },
-    ],
-    background: "#FFF",
-  },
-  {
-    id: "item5",
-    title: "HR Employment",
-    images: [
-      {
-        src: "http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg",
-        title: "Engineering Design",
-        content:
-          "We have identified precise customer personas based on demographics, behaviours, and pain points, allowing us to tailor our messaging effectively. We have identified precise customer personas based on demographics, behaviours, and pain points.",
-      },
-    ],
-    background: "#FFF",
-  },
+
+  // ... other items
 ];
 
 const Accordionmobile = () => {
@@ -93,20 +69,32 @@ const Accordionmobile = () => {
               activeItem === item.id ? "bg-white shadow-lg" : "bg-gray-200"
             } ${item.background}`}
           >
-            <div
-              className={`absolute top-1/2 right-4 transform -translate-y-1/2 w-6 h-6 transition-transform duration-300 ease-in-out ${
-                activeItem === item.id ? "rotate-0" : "rotate-90"
-              }`}
-            ></div>
-            <h2
-              className={`text-center text-3xl transition-transform duration-300 ease-in-out ${
-                activeItem === item.id
-                  ? "text-white text-3xl"
-                  : "text-gray-700 text-xl"
-              }`}
-            >
-              {item.title}
-            </h2>
+            <div className="flex justify-center items-center">
+              <h2
+                className={`text-center text-3xl transition-transform duration-300 ease-in-out ${
+                  activeItem === item.id
+                    ? "text-gray-700 text-3xl"
+                    : "text-gray-700 text-xl"
+                }`}
+              >
+                {item.title}
+              </h2>
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth="0"
+                viewBox="0 0 24 24"
+                className={`h-6 w-6 transition-transform duration-300 ease-in-out ${
+                  activeItem === item.id ? "rotate-180" : "rotate-0"
+                }`}
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"></path>
+              </svg>
+            </div>
           </label>
           <div
             className={`transition-all duration-300 ease-in-out overflow-hidden ${
@@ -128,10 +116,6 @@ const Accordionmobile = () => {
                           <h2 className="text-3xl">{image.title}</h2>
                           <p className="text-sm">{image.content}</p>
                         </div>
-                        <button className="relative overflow-hidden h-11 px-8 rounded-md bg-[#3d3a4e] text-white border-none cursor-pointer group">
-                          <span className="relative z-10">Click Me</span>
-                          <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#965DE9] to-[#6358EE] transform scale-x-0 origin-left transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
-                        </button>
                       </div>
                     )}
                   </a>

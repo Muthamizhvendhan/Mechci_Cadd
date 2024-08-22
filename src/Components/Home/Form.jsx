@@ -32,7 +32,7 @@ function Form() {
   });
   console.log(isValid);
   return (
-    <div className="min-h-screen   flex items-center justify-center p-6 bg-image">
+    <div className="min-h-screen   flex items-center justify-center p-6">
       <div className="max-w-5xl w-full flex flex-col md:flex-row ">
         <div className="md:w-1/2 p-4 text-white rounded-lg md:rounded-r-none">
           <h2 className="text-xl text-[#040486] font-bold mb-4">

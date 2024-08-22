@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-auto">
           <div className="flex justify-between items-center w-full">
-            <Link to="/" className="flex-shrink-0 flex items-center py-2">
+            <Link to="/" className="flex-shrink-0 flex items-center py-2 uppercase">
               <img className="w-[60px]" src="/logo.png" alt="Logo" />
             </Link>
             <div className="hidden sm:ml-6 md:flex sm:space-x-8">
@@ -86,7 +86,7 @@ const NavItem = ({ link, isMenuOpen, setHoveredMenu, clearHoveredMenu }) => {
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: 'auto', opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
-              className="absolute z-10 mt-0 min-w-48 bg-white dark:bg-zinc-700 rounded-md py-1"
+              className="absolute z-10 mt-0 min-w-48 bg-white dark:bg-zinc-700 rounded-md"
             >
               {link.subMenu.map((subLink, index) => (
                 <Link key={index} to={subLink.href} className={DROPDOWN_ITEM_CLASSES}>{subLink.label}</Link>

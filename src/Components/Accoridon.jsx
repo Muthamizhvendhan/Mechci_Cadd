@@ -6,7 +6,6 @@ const sections = [
     title: 'Service Spectrum',
     content: 'We have identified precise customer personas based on demographics, behaviours, and pain points, allowing us to tailor our messaging effectively. We have identified precise customer personas based on demographics, behaviours, and pain points.',
     backgroundImage: "url('https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80')",
-    buttonText: 'Learn More',
   },
   {
     title: 'HR Employment',
@@ -57,7 +56,7 @@ const Accordion = () => {
               className={`m-0 transform ${
                 activeIndex === index
                   ? 'text-white text-3xl rotate-0'
-                  : 'rotate-90 whitespace-nowrap text-xl'
+                  : 'rotate-[-90deg] whitespace-nowrap text-3xl'
               }`}
             >
               {section.title}
@@ -71,10 +70,7 @@ const Accordion = () => {
             }`}
           >
             <p className="m-0 text-white mb-4 text-justify text-xl">{section.content}</p>
-            <button className="relative overflow-hidden h-11 px-8 rounded-md bg-[#3d3a4e] text-white border-none cursor-pointer group">
-              <span className="relative z-10">{section.buttonText}</span>
-              <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#965DE9] to-[#6358EE] transform scale-x-0 origin-left transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
-            </button>
+
           </div>
         </li>
       ))}

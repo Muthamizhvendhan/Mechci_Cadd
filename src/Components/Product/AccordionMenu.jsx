@@ -7,27 +7,15 @@ import { widgetData1,widgetData2,widgetData3 } from "../../data/productData";
 const sections = [
   {
     title: "Area of Services",
-    content: (
-      <>
-        <Products data={widgetData1}  />
-      </>
-    ),
+    content: <Products data={widgetData1} />,
   },
   {
     title: "Area of Business",
-    content: (
-      <>
-        <Products data={widgetData2} />
-      </>
-    ),
+    content: <Products data={widgetData2} />,
   },
   {
     title: "Inhouse expertise teams",
-    content: (
-      <>
-         <Products data={widgetData3} />
-      </>
-    ),
+    content: <Products data={widgetData3} />,
   },
 ];
 
@@ -49,16 +37,31 @@ const AccordionMenu = () => {
             <div key={index}>
               <dt>
                 <button
-                  className={`accordion-title block w-full text-center p-4 bg-blue-500 border-b-2 text-white font-bold text-8xl max-sm:text-3xl max-md:text-5xl transition-colors duration-300 ${
+                  className={`accordion-title flex w-full text-center items-center p-4 bg-blue-500 border-b-2 text-white font-bold text-6xl max-sm:text-3xl max-md:text-5xl transition-colors duration-300 ${
                     activeIndex === index
-                      ? "is-expanded bg-blue-600"
+                      ? "is-expanded bg-blue-950"
                       : "is-collapsed"
                   }`}
                   aria-expanded={activeIndex === index}
                   aria-controls={`accordion${index}`}
                   onClick={() => toggleAccordionMenu(index)}
                 >
-                  {section.title}
+                  <span className="flex-grow text-center">{section.title}</span>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    strokeWidth="0"
+                    viewBox="0 0 24 24"
+                    className={`h-10 w-10 transition-transform duration-300 ${
+                      activeIndex === index ? "rotate-180" : "rotate-0"
+                    }`}
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0V0z"></path>
+                    <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                  </svg>
                 </button>
               </dt>
               <dd

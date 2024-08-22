@@ -9,7 +9,7 @@ const WhyChoose = () => {
       <div className="w-full md:w-1/2 p-[5%]  ">
         <ImageGrid />
       </div>
-      
+
       {/* Why Choose Us Text */}
       <div className="flex-1 mt-8 md:mt-0 md:ml-12">
         <h3 className="text-blue-500 dark:text-blue-400 uppercase text-sm font-semibold">
@@ -28,19 +28,27 @@ const WhyChoose = () => {
         <ul className="mt-4 space-y-2">
           <li className="flex items-center text-zinc-800 dark:text-zinc-100">
             <span className="inline-block w-4 h-4 bg-blue-200 rounded-full mr-2"></span>{" "}
-            Latest Design Solutions & Integration for Corporate Needs
+            Comprehensive end-to-end engineering Solutions
           </li>
           <li className="flex items-center text-zinc-800 dark:text-zinc-100">
             <span className="inline-block w-4 h-4 bg-blue-200 rounded-full mr-2"></span>{" "}
-            Over 100+ Possible Support
+            Extensive expertise in plant engineering
           </li>
           <li className="flex items-center text-zinc-800 dark:text-zinc-100">
             <span className="inline-block w-4 h-4 bg-blue-200 rounded-full mr-2"></span>{" "}
-            Latest Design Solutions
+            Cutting Edge Technology in CAD/CAE 
           </li>
           <li className="flex items-center text-zinc-800 dark:text-zinc-100">
             <span className="inline-block w-4 h-4 bg-blue-200 rounded-full mr-2"></span>{" "}
-            Dedicated Support
+            Rigorous Quality and safety Assurance
+          </li>
+          <li className="flex items-center text-zinc-800 dark:text-zinc-100">
+            <span className="inline-block w-4 h-4 bg-blue-200 rounded-full mr-2"></span>{" "}
+            Cost effective, On-time delivery, 
+          </li>
+          <li className="flex items-center text-zinc-800 dark:text-zinc-100">
+            <span className="inline-block w-4 h-4 bg-blue-200 rounded-full mr-2"></span>{" "}
+            Adherence to Global Standards
           </li>
         </ul>
         <div className="flex flex-col md:flex-row items-center gap-4 mt-5">

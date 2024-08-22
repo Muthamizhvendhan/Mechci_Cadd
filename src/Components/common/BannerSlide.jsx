@@ -4,15 +4,15 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 const imageData = [
     {
-      src: "/public/banner/design-1.png",
+      src: "/banner/design-1.png",
       alt: "Slide 1"
     },
     {
-      src: "/public/banner/design-2.png",
+      src: "/banner/design-2.png",
       alt: "Slide 2"
     },
     {
-      src: "/public/banner/design-3.png",
+      src: "/banner/design-3.png",
       alt: "Slide 3"
     }
   ];

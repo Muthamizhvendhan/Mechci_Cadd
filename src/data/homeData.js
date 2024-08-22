@@ -2,19 +2,18 @@ export const NAV_LINKS = [
     { label: 'Home', href: '/', subMenu: [] },
     { label: 'About', href: '/about', subMenu: [] },
     { 
-      label: 'Service', href: '/', subMenu: [
-        { label: 'Service Spectrum', href: '/service-spectrum' },
-        { label: 'Employment-HR', href: '/' },
-        { label: 'Engineering Design & Manufacturing Support', href: '/' },
-        { label: 'Education - CAD/CAM, Piping & PDS', href: '/' },
+      label: 'Portfolio', href: '/', subMenu: [
+        { label: 'ENGINEERING DESIGN', href: '/engineering-design' },
+        { label: 'EXPERTISATION', href: '/' },
+
       ]
     },
-    { 
-      label: 'Title', href: '/', subMenu: [
-        { label: 'Client', href: '/clients' },
-        { label: 'Gallery', href: '/gallery' },
-      ]
-    },
+    // { 
+    //   label: 'Title', href: '/', subMenu: [
+    //     { label: 'Client', href: '/clients' },
+    //     { label: 'Gallery', href: '/gallery' },
+    //   ]
+    // },
     { label: 'Career', href: '/career', subMenu: [] },
     { label: 'Contact Us', href: '/contact-us', subMenu: [] }
   ];
@@ -56,27 +55,14 @@ export const services = [
     tags: ["Strategy", "Consultation", "Management"],
   },
   {
-    title: "Employment - HR",
+    title: "Expertisation",
     iconUrl: "https://placehold.co/250x250?",
     description:
       "Trust our top minds to eliminate workflow pain points, implement new tech & app.",
     tags: ["Management", "Backup & Recovery", "Transfer"],
   },
-  {
-    title: "Engineering Design & Manufacturing support",
-    iconUrl: "https://placehold.co/250x250?",
-    description:
-      "Trust our top minds to eliminate workflow pain points, implement new tech & app.",
-    tags: ["Ecommerce", "Landing Page", "CMS", "Plugin"],
-  },
-  {
-    title: "Education - CADD, Piping ,PDS & PDMS",
-    iconUrl: "https://placehold.co/250x250?",
-    description:
-      "Trust our top minds to eliminate workflow pain points, implement new tech & app.",
-    tags: ["Website", "Mobile App"],
-  },
 ];
+
 // Portfolio
 
 export const slidesData = [
